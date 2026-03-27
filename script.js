@@ -377,7 +377,7 @@ function handleOrder(productId) {
 
     const message = `Halo INIFIRLI STORE, saya ingin membeli:\n\nProduk: ${product.name}\nDurasi: ${duration}\nTotal: ${formatPrice(price)}\n\nSaya akan bayar via Dana / QRIS`;
 
-    const whatsappUrl = `https://wa.me/628516930771?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/6285169307731?text=${encodeURIComponent(message)}`;
     
     showToast('Mengarahkan ke WhatsApp...');
     
